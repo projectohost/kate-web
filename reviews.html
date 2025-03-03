@@ -1,0 +1,111 @@
+
+<html>
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title> ресторан  Diverxo </title>
+      <link rel="stylesheet" href="./reviews.css" />
+    </head>
+     <nav>
+        <a href="./index.html">Головна</a>
+        <a href="./menu.html">Меню</a>
+        <a href="#about">Про нас</a>
+        <a href="./reviews.html">Відгуки</a>
+        <a href="#contact">Контакти</a>
+    </nav>
+    <div class="reviews-container">
+    <div class="review">
+        <div class="review-photo">
+            <img src="https://media.allure.com/photos/618153bc590337268c4b06fd/16:9/w_2560%2Cc_limit/My%2520Beautiful%2520Black%2520Hair%25201.jpg" alt="Guest 1">
+        </div>
+        <div class="review-content">
+            <h3></h3>
+            <p>"Чудовий ресторан! Вишукане меню, бездоганний сервіс. Дуже рекомендую спробувати стейк та десерти!"</p>
+            <div class="review-rating">
+                <span>⭐⭐⭐⭐⭐</span>
+            </div>
+        </div>
+    </div>
+    <div class="review">
+        <div class="review-photo">
+            <img src="https://kopnl.com.ua/wp-content/uploads/2022/02/zhiznennaya-energiya.jpg" alt="Guest 2">
+        </div>
+        <div class="review-content">
+            <h3></h3>
+            <p>"Тут завжди приємна атмосфера і дуже смачні страви. Обов'язково повернуся знову!"</p>
+            <div class="review-rating">
+                <span>⭐⭐⭐⭐</span>
+            </div>
+        </div>
+    </div>
+    
+</div>
+<div class="reviews-container">
+    <div class="review">
+        <div class="review-photo">
+            <img src="https://forbes.ua/static/storage/thumbs/414x671/a/fa/41ae685c-525fb7aae4925967d00e0c4700189faa.jpg?v=5098_1" alt="Guest 1">
+        </div>
+        <div class="review-content">
+            <h3></h3>
+            <p>"Приємний ресторан все смачно та зрусношвидкий сервіз швидкий повернуся ще раз "</p>
+            <div class="review-rating">
+                <span>⭐⭐⭐⭐</span>
+            </div>
+        </div>
+    </div>
+ <div class="reviews-container">
+    <div class="review">
+        <div class="review-photo">
+            <img src="https://st2.depositphotos.com/1743476/11581/i/450/depositphotos_115812380-stock-photo-cool-african-man.jpg" alt="Guest 1">
+        </div>
+        <div class="review-content">
+            <h3></h3>
+            <p>"Празнували день народження дуже все сподобалося було весело всі радівсе швидко принесли "</p>
+            <div class="review-rating">
+                <span>⭐⭐⭐⭐⭐</span>
+            </div>
+        </div>
+    </div>
+ </div>
+ </div>
+
+
+ <section class="delivery-info">
+  <div class="container">
+    <h2>Доставка та Оформлення Замовлення</h2>
+    <p>Ми доставимо ваше замовлення швидко та безпечно. Ось як це працює:</p>
+    <ul>
+      <li>Замовлення обробляються впродовж 24 годин.</li>
+      <li>Безкоштовна доставка при замовленні від 1000 грн.</li>
+      <li>Доставка по всйому місту .</li>
+    </ul>
+    <a href="#order" class="order-btn">Оформити Замовлення</a>
+  </div>
+</section>
+
+
+<section id="order" class="order-form">
+  <div class="container">
+    <h2>Оформити Замовлення</h2>
+    <form action="/submit-order" method="post">
+      <label for="name">Ім'я:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="address">Адреса доставки:</label>
+      <input type="text" id="address" name="address" required>
+
+      <label for="delivery-type">Тип доставки:</label>
+      <select id="delivery-type" name="delivery-type">
+        <option value="courier">Кур'єр</option>
+        <option value="pickup">Самовивіз</option>
+        <option value="postal">Пошта</option>
+      </select>
+
+      <button type="submit" class="submit-btn">Підтвердити замовлення</button>
+    </form>
+  </div>
+</section>
+
+
+
+</html>
